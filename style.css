@@ -1,0 +1,173 @@
+/* For Desktop */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(4, 6, 27);
+}
+.flex-container {
+    display: flex;
+    width: 1080px;
+    height: 446px;
+    background-color: rgb(19, 9, 48);
+    border-radius: 15px;
+}
+.main1 {
+    width: 540px;
+    height: auto;
+    display: flex;
+    padding: 65px 70px;
+    flex-direction: column;
+
+}
+.main1 h1 {
+    color: white;
+    font-size: 36px;
+}
+.main1 span {
+    color: purple;
+}
+.main1 p {
+    line-height: 30px;
+    color:gray;
+    font-size: 18px;
+}
+.main1 h2 {
+    color: white;
+    padding-left: 10px;
+}
+.main1 .mm1 {
+    display: flex;
+    flex-direction: row;
+    
+}
+.main1 .mm1 .mp1 h1 {
+    font-size: 28px;
+}
+.main1 .mm1 .mp1 p {
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.main1 .mm1 .mp2 h1 {
+    color: white;
+    padding-left: 80px;
+    font-size: 28px;
+}
+.main1 .mm1 .mp2 p {
+    padding-left: 80px;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.main1 .mm1 .mp3 h1 {
+    font-size: 28px;
+    padding-left: 75px;
+}
+.main1 .mm1 .mp3 p {
+    padding-left: 75px;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+.main2 {
+    width: 540px;
+    height: auto;
+    display: flex;
+}
+.i1 {
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    filter: brightness(50%);
+}
+.flex-containerm {
+    display: none;
+}
+
+/* For Mobile, Laptop and Tablet */
+
+@media (max-width:1024px) {
+    body {
+        justify-content: center;
+        height: auto;
+        padding: 100px 25px;
+    }
+    .flex-container {
+        display: none;
+    }
+    .flex-containerm {
+        display: block;
+        width: 300px;
+        height: 700px;
+        background-color: rgb(19, 9, 48);
+    }
+    .main1m {
+        height: 100px;
+    }
+    .main2m {
+        padding: 50px 30px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .im2 {
+        height: 200px;
+        width: 300px;
+        filter: brightness(50%);
+    }
+    .main2m h1 {
+        color: white;
+        font-size: 25px;
+        text-align: center;
+    }
+    .main2m span {
+        color: purple;
+    }
+    .main2m p {
+        text-align: center;
+        color:gray;
+        font-size: 15px;
+    }
+    .main2m h2 {
+        color: white;
+        padding-left: 10px;
+    }
+    .main2m .mm1 .mp1 {
+        line-height: 25px;
+    }
+    .main2m .mm1 .mp1 h1 {
+        font-size: 25px;
+    }
+    .main2m .mm1 .mp1 p {
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+    .main2m .mm1 .mp2 {
+        line-height: 25px;
+    }
+    .main2m .mm1 .mp2 h1 {
+        color: white;
+        font-size: 25px;
+    }
+    .main2m .mm1 .mp2 p {
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+    .main2m .mm1 .mp3 {
+        line-height: 25px;
+    }
+    .main2m .mm1 .mp3 h1 {
+        font-size: 25px;
+    }
+    .main2m .mm1 .mp3 p {
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+}
